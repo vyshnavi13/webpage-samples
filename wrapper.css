@@ -1,0 +1,40 @@
+.clearfix::after,
+.clearfix::before{
+  content:'';
+  display:block;
+  clear:both;
+}
+*{
+  box-sizing:border-boxl
+}
+.container{
+  width:450px;
+  height:400px;
+  border:1px solid grey;
+  margin:0 auto;
+  padding:20px;
+}
+.header{
+  height:100px;
+  border:1px solid grey;
+ 
+}
+.wrapper{
+  border:1px solid grey;
+  margin-top:20px;
+  padding:20px;
+}
+.content{
+  width:70%;
+  height:200px;
+  border:1px solid grey;
+  float:left;
+  
+}
+.sidebar{
+  width:25%;
+  height:200px;
+  border:1px solid grey;
+  float:right; 
+}
+  

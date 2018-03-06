@@ -1,0 +1,65 @@
+.clearfix::after
+.clearfix::before{
+content:' ';
+display:block;
+clear:both;
+}
+
+.btn-group{
+	float:left;
+	margin:3px;
+}
+
+.btn{
+
+	padding:6px 12px;
+	border-radius:5px;
+	display:inline-block;
+	border:1px solid #d2d2d2;
+	float:left;
+
+}
+.btn-group>.btn:last-child{
+ 	border-top-left-radius: 0px;
+ 	border-bottom-left-radius: 0px;
+}
+
+.btn-group>.btn:first-child{
+ 	border-top-right-radius: 0px;
+ 	border-bottom-right-radius: 0px; 
+}
+.btn-default{
+	background-color:transparent;
+	color:black;
+
+}
+.btn-primary{
+	background-color:steelblue;
+	color:white;
+	border-color:lightblue;
+
+}
+.btn-success{
+	background-color:mediumseagreen;
+	color:white;
+	border-color:lightgreen;
+}
+.btn-info{
+	background-color:skyblue;
+	color:white;
+	border-color:lightblue;
+
+}
+.btn-warning{
+	background-color:orange;
+	color:white;
+	border-color:coral;
+}
+.btn-danger{
+	background-color:crimson;
+	color:white;
+	border-color:firebrick;
+}
+.btn-group>.btn{
+	margin-right:-1px;
+	}

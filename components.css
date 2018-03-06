@@ -1,0 +1,71 @@
+/*box-shadow: 0 6px 12px rgba(0,0,0,.175)*/
+ul {
+	border-radius: 4px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	width: 160px;
+	border-radius: 4px;
+	clear: left;
+	margin: 5px;
+}
+
+ul {
+	border: 1px solid lightgrey;
+	padding: 10px 8px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+li {
+	padding: 5px 5px;
+}
+
+.seperation {
+	border-top: 1px solid lightgrey;
+	display: block;
+	margin: 9px 0px;
+}
+
+.btn-group {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.btn-group .btn.btn-default {
+	padding: 6px 12px;
+	float: left;
+	background-color: transparent;
+	border: 1px solid #d2d2d2;
+	display: block;
+}
+
+.btn-group .btn-default + .btn-default {
+	border-right: 0px;
+}
+
+.btn-group .btn.btn-default:first-child {
+	border-right: 0px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.btn-group .btn.btn-default:last-child {
+	border-right: 1px solid #d2d2d2;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+}
+
+.clearfix::after,
+.clearfix::before {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+#btn-toolbar {
+	float: left;
+	margin: 3px;
+}
+
